@@ -288,7 +288,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
 <script>
 const DASHBOARD_TARGETS = Object.freeze({ hits: 12, views: 100000, minHitViews: 5000, starViews: 10000 });
 const THEME_KEY = 'xvs-theme';
-function esc(s){return String(s==null?'':s).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"').replace(/'/g,'&#39;')}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';')}
 function num(n){n=Number(n);return Number.isFinite(n)?n:0}
 function fmt(n){n=num(n);if(n===0)return'0';if(n>=1e6)return(n/1e6).toFixed(n>=1e7?0:2).replace(/\.0+$/,'').replace(/(\.\d)0$/,'$1')+'M';if(n>=1e3)return(n/1e3).toFixed(n>=1e5?0:1).replace(/\.0$/,'')+'K';return String(Math.round(n))}
 function pct(value,target){return target?Math.round(value/target*100):0}
