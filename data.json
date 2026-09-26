@@ -1,0 +1,43 @@
+{
+  "title": "Awaiting first digest",
+  "date": null,
+  "timezone": "America/Chicago",
+  "updated": null,
+  "status": "awaiting_first_run",
+  "brand_title": "Tom's X desk",
+  "brand_handle": "@Chalcedon",
+  "hits": [],
+  "virals": [],
+  "outsiders": [],
+  "patterns": [
+    "awaiting first digest"
+  ],
+  "no_hits": [],
+  "virals_narrative": "Awaiting first digest. No data has been collected yet.",
+  "virals_window": "last ~48h",
+  "virals_target": 20,
+  "hits_count": 0,
+  "outsiders_count": 0,
+  "leaderboards": {
+    "as_of": null,
+    "week": {
+      "label": "Week",
+      "range": [],
+      "entries": []
+    },
+    "month": {
+      "label": "Month",
+      "range": [],
+      "entries": []
+    },
+    "days_included": []
+  },
+  "board_features": {
+    "count_up": true,
+    "live_pulse": true,
+    "theme_toggle": true,
+    "grok_ambient": true,
+    "week_month_boards": true,
+    "no_hits_reasons": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "timezone": "America/Chicago",
+  "min_views": 5000,
+  "star_views": 10000,
+  "owner_handle": "Chalcedon",
+  "accounts": [
+    "Smarties",
+    "Awesome",
+    "Technology"
+  ],
+  "_comment": "Handles only, without @. Never commit cookies or tokens."
+}
